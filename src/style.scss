@@ -22,17 +22,18 @@ html, body {
 }
 
 :root {
-  --color-bg1: rgb(108, 0, 162);
-  --color-bg2: rgb(0, 17, 82);
-  --color1: 18, 113, 255;
-  --color2: 221, 74, 255;
-  --color3: 100, 220, 255;
-  --color4: 200, 50, 50;
-  --color5: 180, 180, 50;
-  --color-interactive: 140, 100, 255;
+  --color-bg1: #111111; // Main background color
+  --color-bg2: #111111; // Use the same background color
+  --color1: 255, 0, 40; // FF0028
+  --color2: 206, 15, 45; // CE0F2D
+  --color3: 244, 128, 34; // F48022
+  --color4: 244, 128, 34; // Optional: You can use F48022 for this
+  --color5: 244, 128, 34; // Optional: Or use another accent color
+  --color-interactive: 244, 128, 34; // Optional interactive color
   --circle-size: 80%;
   --blending: hard-light;
 }
+
 
 @keyframes moveInCircle {
   0% {
